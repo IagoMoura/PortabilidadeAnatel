@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1b9203a9-e28d-4c1d-bc55-41df2c257055" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:32153/KgbService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="KgbService.wsdl" MetadataType="Wsdl" ID="dac604e0-c341-4ad3-ab88-f20d5de37bd8" SourceId="1" SourceUrl="http://localhost:32153/KgbService.svc?wsdl" />
+    <MetadataFile FileName="KgbService.disco" MetadataType="Disco" ID="47400db0-a5c6-441e-bda9-185583690a3d" SourceId="1" SourceUrl="http://localhost:32153/KgbService.svc?disco" />
+    <MetadataFile FileName="KgbService.xsd" MetadataType="Schema" ID="bbc7993a-cc15-4d36-8bfc-151f964f543d" SourceId="1" SourceUrl="http://localhost:32153/KgbService.svc?xsd=xsd1" />
+    <MetadataFile FileName="KgbService1.xsd" MetadataType="Schema" ID="78a7c1a5-fcbe-4923-87a6-eab7b35bf679" SourceId="1" SourceUrl="http://localhost:32153/KgbService.svc?xsd=xsd0" />
+    <MetadataFile FileName="KgbService2.xsd" MetadataType="Schema" ID="13f4efe7-5b79-409f-a7aa-fdf096bcd75b" SourceId="1" SourceUrl="http://localhost:32153/KgbService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

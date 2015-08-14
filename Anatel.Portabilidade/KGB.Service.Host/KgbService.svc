@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="KGB.Service.Host.KgbService" CodeBehind="KgbService.svc.cs" %>

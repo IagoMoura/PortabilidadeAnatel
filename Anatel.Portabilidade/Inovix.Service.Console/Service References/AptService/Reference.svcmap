@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="faba0940-480b-4566-a8c5-56b1c0504bb3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:31606/AptService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="9b5232c7-bbf2-40e4-a572-9ec0047d053a" SourceId="1" SourceUrl="http://localhost:31606/AptService.svc?wsdl" />
+    <MetadataFile FileName="AptService.disco" MetadataType="Disco" ID="28dd446e-b054-4548-a382-80212c22c48b" SourceId="1" SourceUrl="http://localhost:31606/AptService.svc?disco" />
+    <MetadataFile FileName="AptService.xsd" MetadataType="Schema" ID="5c5aa494-43c3-4b0e-bf65-b362b2354d9e" SourceId="1" SourceUrl="http://localhost:31606/AptService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AptService1.xsd" MetadataType="Schema" ID="a97d3616-51f5-4303-8a9d-ceab7f72606e" SourceId="1" SourceUrl="http://localhost:31606/AptService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AptService2.xsd" MetadataType="Schema" ID="53a174da-afc8-4889-8ea0-9ebeeddc4ff6" SourceId="1" SourceUrl="http://localhost:31606/AptService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
